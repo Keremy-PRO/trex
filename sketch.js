@@ -15,6 +15,7 @@ var gameOver, restart;
 
 
 function preload(){
+  console.log("Las niñas me enseñron esto");
   trex_running =   loadAnimation("trex1.png","trex3.png","trex4.png");
   trex_collided = loadAnimation("trex_collided.png");
   
